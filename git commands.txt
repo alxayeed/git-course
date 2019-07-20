@@ -4,3 +4,8 @@
 4.git config user.name 'localUser'
 5.git config user.email 'localEmail'
 6.git config --list
+7.git status
+8.git add 'filename'
+9.git add .
+10.clear 
+11.git commit -m 'commit name'
