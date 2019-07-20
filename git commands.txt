@@ -1,0 +1,6 @@
+1.git init
+2.git config --global user.name 'name'
+3.git config --global user.email 'email'
+4.git config user.name 'localUser'
+5.git config user.email 'localEmail'
+6.git config --list
