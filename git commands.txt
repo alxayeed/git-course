@@ -9,3 +9,5 @@
 9.git add . /git add --all
 10.clear 
 11.git commit -m 'commit name'
+12.git checkout 'commit number'
+13. git checkout master
