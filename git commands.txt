@@ -20,7 +20,7 @@
 20.$ git push -u origin master
 21.ssh-keygen -t rsa -b 4096 -C "alxayeed@gmail.com"///ssh-keygen -t rsa -b 4096 -C "alxayeed@gmail.com" -f C:\Users\alxay
 22.eval $(ssh-agent -s) //$ eval `ssh-agent`
-23.ssh-add ~/.ssh/id_rsa
+23.ssh-add /w/Practice/Git/.ssh/id_rsa
 24.clip < ~/.ssh/id_rsa.pub
 25.git remote add origin git@github.com:alxayeed/git-course.git //git remote set-url origin git@github.com:alxayeed/git-course.git
 26.git push -u origin master
@@ -28,3 +28,10 @@
 28.git clone [address] newname
 29.git fetch
 30.git pull
+
+31.git branch
+32.git branch branchname
+33.git checkout
+34.git checkout branchname
+35.git checkout -b branchname
+36.git merge branchname 
