@@ -13,3 +13,4 @@
 13. git checkout master
 14.git show 'commit number'
 15.git diff
+16.git diff --staged
