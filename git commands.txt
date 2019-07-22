@@ -11,3 +11,4 @@
 11.git commit -m 'commit name'
 12.git checkout 'commit number'
 13. git checkout master
+git show 'commit number'
