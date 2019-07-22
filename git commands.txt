@@ -36,3 +36,12 @@
 35.git checkout -b branchname
 36.git merge branchname 
 37.git -D branchname
+
+38.git stash
+39.git stash pop/git stash apply
+40.git stash list
+41.git stash pop 'serialnumber of stash'
+
+42.git clean -f
+
+43.touch .gitignore
