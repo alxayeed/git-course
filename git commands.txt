@@ -35,3 +35,4 @@
 34.git checkout branchname
 35.git checkout -b branchname
 36.git merge branchname 
+37.git -D branchname
