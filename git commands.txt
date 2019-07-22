@@ -16,3 +16,9 @@
 16.git diff --staged
 17.git rm 'filename'
 18.git reset HEAD 'filename'
+19.git remote add origin https://github.com/alxayeed/git-learning.git
+20.$ git push -u origin master
+21.ssh-keygen -t rsa -b 4096 -C "alxayeed@gmail.com"///ssh-keygen -t rsa -b 4096 -C "alxayeed@gmail.com" -f C:\Users\alxay
+22.eval $(ssh-agent -s) //$ eval `ssh-agent`
+23.ssh-add ~/.ssh/id_rsa
+24.clip < ~/.ssh/id_rsa.pub
