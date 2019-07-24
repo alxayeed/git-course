@@ -1,21 +1,28 @@
 1.git init   
+
 2.git config --global user.name 'name'
 3.git config --global user.email 'email'
 4.git config user.name 'localUser'
 5.git config user.email 'localEmail'
 6.git config --list
+
 7.git status
+
 8.git add 'filename'
-9.git add . /git add --all
+9.git add . // git add --all
 10.clear 
+
 11.git commit -m 'commit name'
 12.git checkout 'commit number'
 13. git checkout master
 14.git show 'commit number'
+
 15.git diff
 16.git diff --staged
+
 17.git rm 'filename'
 18.git reset HEAD 'filename'
+
 19.git remote add origin https://github.com/alxayeed/git-learning.git
 20.$ git push -u origin master
 21.ssh-keygen -t rsa -b 4096 -C "alxayeed@gmail.com"///ssh-keygen -t rsa -b 4096 -C "alxayeed@gmail.com" -f C:\Users\alxay
@@ -23,14 +30,17 @@
 23.ssh-add /w/Practice/Git/.ssh/id_rsa
 24.clip < ~/.ssh/id_rsa.pub
 25.git remote add origin git@github.com:alxayeed/git-course.git //git remote set-url origin git@github.com:alxayeed/git-course.git
+
 26.git push -u origin master
 27.git clone [clone with ssh address]
 28.git clone [address] newname
+
 29.git fetch
 30.git pull
 
 31.git branch
 32.git branch branchname
+
 33.git checkout
 34.git checkout branchname
 35.git checkout -b branchname
